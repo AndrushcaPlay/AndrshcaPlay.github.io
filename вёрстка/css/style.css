@@ -1,0 +1,211 @@
+html {
+	overflow-y: auto;
+    overflow-x: auto;
+	position: relative;
+}
+
+body{
+    position: relative;
+	background-color:black;
+	background-image: url('../img/BG.png');
+}
+
+@font-face {
+    font-family: Muly-bold; /* Гарнитура шрифта */
+    src: url(../fonts/Muli-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: Muly-light; /* Гарнитура шрифта */
+    src: url(../fonts/Muli-Light.ttf); /* Путь к файлу со шрифтом */
+   } 
+
+@font-face {
+    font-family: Extra-light; /* Гарнитура шрифта */
+    src: url(../fonts/Muli-Light.ttf); /* Путь к файлу со шрифтом */
+   }    
+
+
+@keyframes text1 {
+	from{
+     opacity: 0;  
+ }
+   to{
+   	opacity: 1;  
+   }
+
+}
+#train {
+	position: relative;
+	top: 350px;
+	right: 260px;
+	height: 600px;
+	width: 700px;
+    position: relative;
+    cursor: pointer;
+    z-index: -1;
+}
+#train2 {
+	position: relative;
+	top: -255px;
+	right: 260px;
+	height: 600px;
+	width: 700px;
+    position: relative;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#train1 {
+	position: relative;
+	top: 805px;
+	right: 238px;
+	height: 600px;
+	width: 700px;
+    cursor: pointer;
+    transform: rotate(12deg);
+}
+
+#train3 {
+	position: relative;
+	bottom: 2310px;
+	left: 1050px;
+	height: 600px;
+	width: 700px;
+    position: relative;
+    cursor: pointer;
+    }
+
+#train4 {
+	position: relative;
+	bottom: 2910px;
+	left: 1050px;
+	height: 600px;
+	width: 700px;
+    position: relative;
+    cursor: pointer;
+    }
+
+#train5 {
+	position: relative;
+	bottom: 3510px;
+	left: 1075px;
+	height: 600px;
+	width: 700px;
+    position: relative;
+	cursor: pointer;
+    }    
+
+#train3,
+#train4, 
+#train5 {
+   animation-name: text1;
+   animation-duration: 3s;
+   animation-delay: 3s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: backwards;
+}     
+
+img {
+	position: relative;
+}
+
+
+
+.power1 {
+	position: relative;
+	width: 788px;
+	height: 81px;
+	font-size: 65;
+	z-index: 3;
+	color: white;
+	font-family: "Muly-bold";
+	top:270px;
+	left:50px;
+}
+
+.power2 {
+	position: relative;
+	width: 560px;
+	height: 87px;
+	font-size: 20;
+	z-index: 3;
+	color: white;
+	font-family: "Muly-light";
+	top:240px;
+	left:50px;
+}
+
+@keyframes text {
+	from{
+     transform: translate(0px,50px) rotate(0deg) ; opacity: 0;  
+ }
+   to{ transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  
+   }
+
+}
+
+.power1,
+.power2 {
+   animation-name: text;
+   animation-duration: 2s;
+   animation-timing-function: ease-in-out;
+}
+
+#train6 {
+	position: relative;
+	bottom: 3853px;
+	left: 1570px;
+	height: 650px;
+	width: 1500px;
+    cursor: pointer;
+    } 
+ 
+
+.cart1 svg {
+	position: relative;
+	bottom: 4060px;
+	left: 1700px;
+	height: 50px;
+	width: 248px;
+	font-size: 40px;
+	color: white;
+	font-family: "Muly-light";
+	z-index: 11;
+}    
+
+
+.cart1 .cart1s {
+	position: relative;
+	bottom: 4110px;
+	left: 1790px;
+	height: 20px;
+	width: 87px;
+	font-size: 5px;
+	color: white;
+	font-family: "Extra-light";
+	z-index: 11;
+}   
+
+.fon {
+	position: relative;
+	bottom: 4652px;
+	left: 1570px;
+	height: 740px;
+	width: 1500px;
+	background-color: black;
+	opacity: 0.2;
+	z-index: 10;
+}
+
+.lol1 {
+	position: absolute;
+	bottom: 8062px;
+	left: 3700px;
+	height: 50px;
+	width: 248px;
+	font-size: 40px;
+	color: rgb(255, 255, 255);
+	font-family: "Muly-light";
+	z-index: 99;
+}
